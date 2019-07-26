@@ -88,6 +88,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl:32 \
